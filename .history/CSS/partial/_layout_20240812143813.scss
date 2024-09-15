@@ -1,0 +1,42 @@
+//layout of project
+
+
+
+// Container-device
+
+$container-xl: 1440px;
+$container-l: 1440px;
+$container-m: 1440px;
+$container-s: 1440px;
+$container-xs: 1440px;
+$gutter: 32px;
+
+
+//mixins of media-queries
+
+@mixin responsive($device){
+
+
+    @if $device == xl{
+        //for resolution upper 1440px
+        @media screen and (min-width: $container-xl) {
+            @content;
+            
+        }
+    }
+
+    
+    @else if $device == l{
+        //for resolution upper 1440px
+        @media screen and (max-width: $container-xl) and (min-width: $container-l){
+            @content;
+            
+        }
+    }
+
+
+
+
+
+}
+

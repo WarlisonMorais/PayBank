@@ -1,0 +1,30 @@
+//button principal
+
+.link-btn-nav{
+    width: 176px;
+    height: 48px;
+    border-radius: 8px;
+
+    background: linear-gradient(45deg, #BBE768, #496022);
+
+    transition: 1s ease;
+
+    &:hover{
+        box-shadow: 0px 0px 5px  #BBE768;
+        transform: scale(1.1);
+    }
+
+    display:block;
+    color:$white-normal;
+    align-items:center;
+    text-align: center;
+    justify-content: center;
+    text-decoration:none;
+    padding: 8px 8px;
+
+    @include typeface-2(p2, desktop);
+
+
+
+}
+

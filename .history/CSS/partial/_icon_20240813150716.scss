@@ -1,0 +1,16 @@
+// icons 
+
+.bg-log-princ{
+
+    &::after{
+        background-image:  url("../svg/logo-princ.svg");
+
+
+        background-size:cover;
+
+        transition: 0.5s ease;
+        cursor: pointer;
+
+        filter: drop-shadow(0px 16px 24px $brand-color-blue-6);
+    }
+}

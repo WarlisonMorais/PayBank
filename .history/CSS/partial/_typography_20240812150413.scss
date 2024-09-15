@@ -1,0 +1,22 @@
+//Typography of project
+
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&family=Poppins:wght@400;500;700&display=swap');
+
+
+@mixin typeface-1($size, $device: desktop){
+
+    @if $size == h0 and $device == desktop{
+        font-family: "M PLUS 1p", sans-serif;;
+        font-size: 120px;
+        font-weight: 400;
+        line-height: 120%;
+
+    } @else if $size == h0 and $device == mobile{
+        
+    }
+
+
+
+
+}

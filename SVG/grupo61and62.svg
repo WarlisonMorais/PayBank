@@ -1,0 +1,62 @@
+<svg width="497" height="409" viewBox="0 0 497 409" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 27651">
+<g id="Frame 61">
+<g clip-path="url(#clip0_221_1454)">
+<rect width="322.406" height="223.204" rx="13.2269" transform="matrix(-0.902585 0.430511 -0.504829 -0.863219 496.063 262.555)" fill="url(#paint0_linear_221_1454)"/>
+<g id="Group 27543">
+<rect id="Rectangle 3588" width="50.4276" height="322.406" transform="matrix(0.504829 0.863219 -0.902585 0.430511 383.329 70)" fill="#1A1C15" fill-opacity="0.4"/>
+<text id="&#226;&#128;&#162;&#226;&#128;&#162;&#226;&#128;&#162;&#226;&#128;&#162; 4259" transform="matrix(0.504829 0.863219 -0.902585 0.430511 375.645 230.643)" fill="#E8EDDF" xml:space="preserve" style="white-space: pre" font-family="Quicksand" font-size="13.2269" font-weight="600" letter-spacing="0.05em"><tspan x="0" y="12.9601">&#x2022;&#x2022;&#x2022;&#x2022; 4259</tspan></text>
+<circle id="Ellipse 16" opacity="0.2" cx="18.9106" cy="18.9106" r="18.9106" transform="matrix(0.504829 0.863219 -0.902585 0.430511 434.591 202.528)" fill="#E8EDDF"/>
+<circle id="Ellipse 17" opacity="0.4" cx="18.9106" cy="18.9106" r="18.9106" transform="matrix(0.504829 0.863219 -0.902585 0.430511 446.226 222.423)" fill="#E8EDDF"/>
+</g>
+</g>
+<rect x="-0.83348" y="-0.256253" width="321.222" height="222.02" rx="12.6347" transform="matrix(-0.902585 0.430511 -0.504829 -0.863219 494.348 262.436)" stroke="#4E5C37" stroke-width="1.18441"/>
+</g>
+<g id="Frame 62" filter="url(#filter0_b_221_1454)">
+<g clip-path="url(#clip1_221_1454)">
+<rect width="336.523" height="232.977" rx="13.8061" transform="matrix(0.83147 0.55557 -0.308685 0.951164 71.9165 0)" fill="url(#paint1_linear_221_1454)" fill-opacity="0.75"/>
+<g id="Group 27542">
+<text id="Warlison M Silva" transform="matrix(0.308685 -0.951164 0.83147 0.55557 195.688 319.396)" fill="#FBFFF5" xml:space="preserve" style="white-space: pre" font-family="Quicksand" font-size="13.8061" font-weight="600" letter-spacing="0.05em"><tspan x="0" y="13.6773">Warlison M Silva</tspan></text>
+<path id="Vector 1931" d="M86.4597 45.3045C92.7245 45.2572 96.2338 47.7241 100.45 54.6526M87.6307 49.7666C92.1313 49.741 94.1028 51.3024 96.9577 55.9987M88.8023 54.2269C91.4821 54.0654 92.7452 55.1534 94.542 58.062" stroke="#E8EDDF" stroke-width="1.29432" stroke-linecap="round" stroke-linejoin="round"/>
+<circle id="Ellipse 14" cx="19.7386" cy="19.7386" r="19.7386" transform="matrix(0.308685 -0.951164 0.83147 0.55557 231.919 343.605)" fill="#C0C0C0" fill-opacity="0.4"/>
+<circle id="Ellipse 15" cx="19.7386" cy="19.7386" r="19.7386" transform="matrix(0.308685 -0.951164 0.83147 0.55557 239.345 320.724)" fill="#FBFFF5" fill-opacity="0.5"/>
+<g id="Group 27519">
+<rect id="Rectangle 28" width="13.5316" height="19.7707" rx="1.72576" transform="matrix(0.308685 -0.951164 0.62223 0.906372 40.9155 206.282)" fill="url(#paint2_linear_221_1454)"/>
+<rect id="Rectangle 19" width="25.725" height="17.2281" rx="1.72576" transform="matrix(0.308685 -0.951164 0.62223 0.906372 36.3633 199.667)" fill="url(#paint3_linear_221_1454)"/>
+</g>
+</g>
+</g>
+<rect x="0.309596" y="0.892298" width="335.338" height="231.793" rx="13.2139" transform="matrix(0.83147 0.55557 -0.308685 0.951164 72.2441 -0.128427)" stroke="#597328" stroke-width="1.18441"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_b_221_1454" x="-9.4753" y="-9.4753" width="370.676" height="427.512" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="4.73765"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_221_1454"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_221_1454" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_221_1454" x1="286.711" y1="-10.363" x2="130.821" y2="287.576" gradientUnits="userSpaceOnUse">
+<stop stop-color="#3E4F1D"/>
+<stop offset="1" stop-color="#596643"/>
+</linearGradient>
+<linearGradient id="paint1_linear_221_1454" x1="299.265" y1="-10.8168" x2="136.549" y2="300.167" gradientUnits="userSpaceOnUse">
+<stop stop-color="#BBE768"/>
+<stop offset="1" stop-color="#496022"/>
+</linearGradient>
+<linearGradient id="paint2_linear_221_1454" x1="6.76579" y1="0" x2="6.76579" y2="19.7707" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F3FAE6" stop-opacity="0"/>
+<stop offset="1" stop-color="#F3FAE6"/>
+</linearGradient>
+<linearGradient id="paint3_linear_221_1454" x1="22.4966" y1="-2.38365" x2="8.79216" y2="23.3475" gradientUnits="userSpaceOnUse">
+<stop stop-color="#ECF5DC"/>
+<stop offset="1" stop-color="#ECF5DC" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="clip0_221_1454">
+<rect width="322.406" height="223.204" rx="13.2269" transform="matrix(-0.902585 0.430511 -0.504829 -0.863219 496.063 262.555)" fill="white"/>
+</clipPath>
+<clipPath id="clip1_221_1454">
+<rect width="336.523" height="232.977" rx="13.8061" transform="matrix(0.83147 0.55557 -0.308685 0.951164 71.9165 0)" fill="white"/>
+</clipPath>
+</defs>
+</svg>

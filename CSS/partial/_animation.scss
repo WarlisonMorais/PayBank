@@ -1,0 +1,212 @@
+// card hero 
+
+
+.grupocheio{
+    width: 100%;
+}
+
+
+
+
+
+.div-card{
+    perspective: 500px;
+    position: relative;
+}
+
+
+
+//bg-frame-cards
+
+
+.card-bg-1{
+    
+
+    animation: bg-frame62 3s ease 1.5s infinite alternate
+}
+
+.card-bg-2{
+    
+
+    animation: bg-frame62 3s ease 1.5s infinite alternate
+}
+
+
+.assis{
+    animation: bg-frame62 3s ease 1.5s infinite alternate;
+
+  
+    .ellipse{
+        filter: blur(3px)
+    }
+   
+}
+
+
+
+
+@keyframes bg-frame62{
+    0%{
+        transform: translate3d(0,0,0)
+    }100%{
+        transform: translate3d(0,30px,0)
+    }
+}
+
+
+
+//parte 2
+
+
+.key-bg-pas{
+
+    animation: bg-frame61 5s ease 1.5s infinite alternate
+}
+
+
+.digital-bg-dedo{
+    animation: bg-frame60 5s ease 1.5s infinite alternate
+}
+
+.card-princ-hi{
+    animation: bg-frame60 5s ease 1.5s infinite alternate
+}
+
+
+
+
+@keyframes bg-frame60{
+    0%{
+        transform: translate3d(0,0,0)
+    }
+    100%{
+        transform: translate3d(0, 20px, 0)
+    }
+}
+
+@keyframes bg-frame61{
+    0%{
+        transform: translate3d(0,0,0)
+    }
+    100%{
+        transform: translate3d(50px, 0, 0)
+    }
+}
+
+
+.ellipse-bg-hello{
+    
+    
+    animation: bg-elipsebg 5s ease 1.5s infinite alternate
+    
+}
+
+
+
+@keyframes bg-elipsebg{
+    0%{
+        transform: translate3d(0,0,0)
+    }50%{
+            transform: translate3d(-50px,0,0)
+        }
+    100%{
+        transform: translate3d(0, 50px, 0)
+    
+    }
+}
+
+
+
+//iPhone13Pro26
+
+.iPhone13Pro22{
+
+    animation: iphonepro22  18s ease infinite alternate;
+}
+
+
+@keyframes iphonePro22{
+    0%,15%{
+        opacity: 1;
+    }
+    20%,100%{
+        opacity: 0;
+    }
+}
+
+
+
+.iPhone13Pro23{
+
+    animation:  iphonepro23 18s ease infinite alternate;
+}
+
+@keyframes iphonepro23{
+    0%,15%{
+        opacity: 0;
+    }
+    20%,35%{
+        opacity: 1;
+    }
+    40%,100%{
+        opacity: 0;
+    }
+}
+
+.iPhone13Pro24{
+
+    animation:  iphonepro24 18s ease infinite alternate;
+}
+
+
+@keyframes iphonepro24{
+    0%,35%{
+        opacity: 0;
+    }
+    40%,55%{
+        opacity: 1;
+    }
+    60%,100%{
+        opacity: 0;
+    }
+}
+
+
+.iPhone13Pro25{
+
+    animation:  iphonepro25 18s ease infinite alternate;
+}
+
+@keyframes iphonepro25{
+    0%,55%{
+        opacity: 0;
+    }
+    60%,75%{
+        opacity: 1;
+    }
+    80%,100%{
+        opacity: 0;
+    }
+
+}
+
+
+.iPhone13Pro26{
+
+    animation:  iphonepro26 18s ease infinite alternate;
+}
+
+
+
+@keyframes iphonepro26{
+    0%,55%{
+        opacity: 0;
+    }
+    60%,75%{
+        opacity: 0;
+    }
+    80%,100%{
+        opacity: 1;
+    }
+
+}

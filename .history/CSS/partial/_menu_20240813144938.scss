@@ -1,0 +1,69 @@
+//header of navigation 
+
+header{
+    background:transparent;
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 96px;
+
+   
+}
+
+
+//menu
+
+.logo{
+
+
+    border-radius:20px
+    
+
+
+    p{
+        @include typeface-2(p2, desktop);
+        color:$white-normal;
+        font-weight: 700;
+    }
+}
+
+
+.nav-desktop-full{
+    max-width: $container-xl;
+   
+    margin: 0 auto;
+    height: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    border-bottom: 1px solid $brand-color-green-6;
+
+    .desktop-item-1{
+        width: 720px;
+        
+        padding: 18px 24px;
+    }
+
+    .desktop-item-2{
+        width: 720px;
+        
+        padding: 16px 24px;
+        display: flex;
+        align-items:center;
+        justify-content: flex-end;
+        
+        .menu-desktop-1{
+            display: flex;
+            list-style: none;
+            padding: 9px 8px;
+            align-items:center;
+
+            a{
+                text-decoration: none;
+                padding: 0px 8px;
+                @include typeface-2(p2,desktop);
+                color:$white-normal;
+            }
+        }
+    }
+}
+

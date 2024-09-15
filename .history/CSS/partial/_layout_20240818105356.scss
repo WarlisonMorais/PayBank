@@ -1,0 +1,392 @@
+//layout of project
+
+
+
+// Container-device
+
+$container-xl: 1440px;
+$container-l: 1216px;
+$container-m: 960px;
+$container-s: 620px;
+$container-xs: 390px;
+$gutter: 32px;
+
+
+//mixins of media-queries
+
+@mixin responsive($device){
+
+
+    @if $device == xl{
+        //for resolution upper 1440px
+        @media screen and (min-width: $container-xl) {
+            @content;
+            
+        }
+    }
+
+    
+    @else if $device == ul{
+        //for resolution upper 960px
+        @media screen and (max-width: $container-m) {
+            @content;
+            
+        }
+    }
+
+    @else if $device == l{
+        //for resolution between 1440px and 1140px/1216px
+        @media screen and (max-width: $container-xl) and (min-width: $container-l){
+            @content;
+            
+        }
+    }
+
+
+    @else if $device == m{
+       // For resolutions between 960px and 1140px
+        @media screen and (max-width: $container-l) and (min-width: $container-s){
+            @content;
+            
+        }
+    }
+
+
+    @else if $device == s{
+        // For resolutions less than 960px
+         @media screen and (max-width: $container-m) {
+             @content;
+             
+         }
+     }
+
+     @else if $device == xs{
+       // For resolutions less than 340px
+         @media screen and (max-width: $container-xs) {
+             @content;
+             
+         }
+     }
+
+
+
+}
+
+
+
+.container1{
+    max-width: $container-xl;
+
+    margin:  auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 110px 24px;
+
+    @include responsive(m){
+        flex-direction: column;
+        padding: 128px 16px;
+    }
+
+    @include responsive(s){
+      flex-direction: column;
+      padding: 120px 16px;
+  }
+}
+
+
+
+.container2{
+    max-width: $container-xl;
+
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 110px 24px;
+
+    @include responsive(s){
+        flex-direction: column;
+        padding: 96px 16px;
+    }
+}
+
+
+
+.flex{
+    display: flex;
+}
+
+
+
+
+.flex-start-row{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    flex-direction: row;
+
+}
+
+.flex-end-row{
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    flex-direction: row;
+
+}
+
+
+.flex-start-column{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items:center;
+}
+
+
+.flex-center-column{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+}
+
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+
+
+.flex-space {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  
+    @include responsive(s){
+      //flex-direction: column;
+      //align-items: flex-start;
+    }
+  }
+  
+  .flex-column {
+    flex-direction: column;
+  }
+  
+  
+  .relative {
+    position: relative;
+  }
+  
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  
+  .flex-item-1 {
+    flex: 1 1 360px;
+  }
+  
+  .flex-item-2 {
+    flex: 2 1 460px;
+  }
+  
+  .flex-item-3 {
+    flex: 3 1 360px;
+  }
+  
+  .flex-item-4 {
+    flex: 4 1 360px;
+  }
+  
+  .flex-item-5 {
+    flex: 5 1 360px;
+  }
+  
+  .flex-auto {
+    flex: 1 1 auto;
+  }
+  
+  // Width's
+  .w-auto {
+    width: auto;
+  }
+  .h-auto {
+    height: auto !important;
+  }
+  .w-100 {
+    width: 100%;
+  }
+  .w-75 {
+    width: 75%;
+  }
+  .w-50 {
+    width: 50%;
+  }
+  .w-25 {
+    width: 25%;
+  }
+  
+
+  .border{
+    border:1px solid red;
+  }
+
+
+
+
+  //continuação do layout
+
+  .card-child-1{
+    height: 441px;
+    
+    @include responsive(s){
+      height: 280px;
+      
+    }
+
+    .umanovaera{
+
+      &::after{
+        content: "";
+        position: absolute;
+        top: 8px;
+        left: 12;
+
+        width: 90px;
+        height: 2px;
+        background: linear-gradient(45deg, #BBE768, #496022);
+        border-bottom:transparent ;
+       
+
+      }
+    }
+  }
+
+  .card-child-2{
+    height: 300px;
+    
+    display: flex;
+    flex-direction: column;
+
+
+    @include responsive(s){
+      justify-content: center;
+      align-items:center;
+    }
+    
+
+
+   
+  }
+
+
+  .bg-home{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+   
+    left: 300px;
+
+    @include responsive(m){
+      left: 100px;
+    }
+
+
+    @include responsive(s){
+      left: 50px;
+    }
+
+    @include responsive(s){
+      left: 0;
+    }
+
+    
+   
+  }
+
+  .svg-bg-home{
+    width: 150%;
+
+    @include responsive(xl){
+      width: 100%;
+    }
+  }
+
+
+  .card-info-img-icon{
+    
+    height: 805px;
+    justify-content: center;
+   
+
+    @include responsive(m){
+      width: 100%;
+      top: 8px;
+    }
+
+    @include responsive(s){
+      width: 100%;
+
+      top: 8px;
+    }
+
+    @include responsive(xs){
+      width: 100%;
+
+      top: 8px;
+    }
+  }
+
+//section-main-2
+ 
+
+
+.section-main-2{
+
+
+  @include responsive(m){
+    flex-direction: column;
+    width: 100%;
+  }
+  @include responsive(s){
+    flex-direction: column;
+    width: 100%;
+  }
+
+
+
+ 
+}
+
+.card-info-form{
+
+  border:1px solid blue;
+  
+  @include responsive(s){
+    justify-content: center;
+    align-items:center;
+    width: 309px;
+    
+  }
+
+  @include responsive(xs){
+    width: 100%;
+  }
+}
+
+
+.section-main-3{
+
+  @include responsive(s){
+  flex-direction:column;
+}
+}

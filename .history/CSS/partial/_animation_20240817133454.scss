@@ -1,0 +1,108 @@
+// card hero 
+
+
+.grupocheio{
+    width: 100%;
+}
+
+
+
+
+
+.div-card{
+    perspective: 500px;
+    position: relative;
+}
+
+
+
+//bg-frame-cards
+
+
+.card-bg-1{
+    
+
+    animation: bg-frame62 3s ease 1.5s infinite alternate
+}
+
+.card-bg-2{
+    
+
+    animation: bg-frame62 3s ease 1.5s infinite alternate
+}
+
+
+.assis{
+    animation: bg-frame62 3s ease 1.5s infinite alternate
+
+  
+    .Ellipse{
+        filter: blur(3px)
+    }
+   
+}
+
+
+
+
+@keyframes bg-frame62{
+    0%{
+        transform: translate3d(0,0,0)
+    }100%{
+        transform: translate3d(0,30px,0)
+    }
+}
+
+
+
+//parte 2
+
+
+.key-bg-pas{
+
+    animation: bg-frame61 5s ease 1.5s infinite alternate
+}
+
+
+.card-princ-hi{
+    animation: bg-frame60 5s ease 1.5s infinite alternate
+}
+
+
+
+
+@keyframes bg-frame60{
+    0%{
+        transform: translate3d(0,0,0)
+    }
+    100%{
+        transform: translate3d(0, 20px, 0)
+    }
+}
+
+@keyframes bg-frame61{
+    0%{
+        transform: translate3d(0,0,0)
+    }
+    100%{
+        transform: translate3d(50px, 0, 0)
+    }
+}
+
+
+.Ellipse-bg{
+    
+    animation: bg-elipse-bg .6s ease 1.5s infinite alternate
+    
+}
+
+
+
+@keyframes bg-elipse-bg{
+    0%{
+        transform: translate3d(0,0,0)
+    }
+    50%{
+        transform: translate3d(50px, 0, 0)
+    }
+}

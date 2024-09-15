@@ -1,0 +1,15 @@
+//
+
+
+
+.circulo-info{
+
+    &::after{
+        background-image: url('../svg/foto-info.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        cursor: pointer;
+
+        position: absolute;
+    }
+}

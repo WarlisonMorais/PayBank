@@ -1,0 +1,57 @@
+// card hero 
+
+
+.icon-card-hero-1{
+
+    position: absolute;
+    top: 20%;
+    
+    width: 100%;
+    
+    
+
+}
+
+
+
+
+
+.icon-card-elipese{
+    position: absolute;
+    top: 5%;
+    left: 10px;
+    z-index: 1;
+    width: 100%;
+
+   
+
+}
+
+
+
+
+
+.icon-card-assin{
+    position: absolute;
+    width: 100%;
+    top: 195px;
+    left: -222px;
+
+    @include responsive(m){
+        width: 100%;
+        top: 139px;
+        left: -220px;
+    }
+    @include responsive(s){
+        top: 149px;
+        width: 100%;
+        left: -200px;
+    }
+
+    @include responsive(xs){
+        top: 149px;
+        width: 100%;
+        left: -200px;
+    }
+
+}

@@ -1,0 +1,26 @@
+//header of navigation 
+
+header{
+    background:blue;
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 96px;
+}
+
+
+//menu
+.nav-desktop-full{
+    max-width: $container-xl;
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+
+
+    .desktop-item-1{
+        width: 720px;
+        background-color:blue
+    }
+}
+

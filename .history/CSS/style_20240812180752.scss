@@ -1,0 +1,34 @@
+*, *:after, *:before{
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+
+
+@import "partial/color";
+@import "partial/layout";
+@import "partial/typography";
+@import "partial/button";
+@import "partial/spacing";
+
+
+
+
+
+
+body{
+    scroll-behavior: smooth;
+    background-color: $brand-color-green-3;
+}
+
+
+
+
+@import "partial/menu";
+@import "partial/icon";
+@import "partial/swiper";
+@import "partial/icon";
+@import "partial/footer";
+@import "partial/animation";

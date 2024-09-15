@@ -1,0 +1,21 @@
+<svg width="182" height="88" viewBox="0 0 182 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="google-play">
+<g id="Rectangle 2120" filter="url(#filter0_d_544_2044)">
+<rect x="16" y="13" width="150" height="56" rx="8" fill="#FBFFF5"/>
+</g>
+<text id="Google Pay" fill="#1A1C15" xml:space="preserve" style="white-space: pre" font-family="Red Hat Display" font-size="16" letter-spacing="0em"><tspan x="66" y="46.704">Google Pay</tspan></text>
+<path id="Vector" d="M38 31C38.176 31.0001 38.3488 31.0467 38.501 31.135L54.505 40.401C54.6565 40.4889 54.7823 40.6151 54.8698 40.7669C54.9572 40.9187 55.0032 41.0908 55.0032 41.266C55.0032 41.4412 54.9572 41.6133 54.8698 41.7651C54.7823 41.9169 54.6565 42.0431 54.505 42.131L38.501 51.397C38.349 51.485 38.1766 51.5314 38.001 51.5316C37.8254 51.5317 37.6528 51.4857 37.5007 51.398C37.3486 51.3103 37.2222 51.1841 37.1343 51.0321C37.0464 50.8801 37.0001 50.7076 37 50.532V32C37 31.7348 37.1054 31.4804 37.2929 31.2929C37.4804 31.1054 37.7348 31 38 31ZM46.292 42.68L41.794 47.178L47.493 43.879L46.293 42.679L46.292 42.68ZM39 35.384V47.144L44.88 41.264L39 35.384ZM49.284 39.686L47.706 41.266L49.284 42.843L52.008 41.266L49.283 39.687L49.284 39.686ZM41.794 35.35L46.294 39.85L47.493 38.65L41.794 35.35Z" fill="#65744D"/>
+</g>
+<defs>
+<filter id="filter0_d_544_2044" x="0" y="0" width="182" height="88" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="3"/>
+<feGaussianBlur stdDeviation="8"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.170703 0 0 0 0 0.25 0 0 0 0 0.0385417 0 0 0 0.2 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_544_2044"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_544_2044" result="shape"/>
+</filter>
+</defs>
+</svg>

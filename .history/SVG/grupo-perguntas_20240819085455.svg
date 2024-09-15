@@ -1,0 +1,18 @@
+<svg width="203" height="96" viewBox="0 0 203 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="grupo-perguntas" class="grupo-perguntas">
+<rect id="Rectangle 3672" x="0.409569" y="0.491754" width="176.675" height="86.4421" rx="9.5" transform="matrix(1 0 -0.180862 0.983508 15.9039 10.0081)" stroke="url(#paint0_linear_544_2195)"/>
+<rect id="Rectangle 3600" width="173.949" height="87.4421" rx="10" transform="matrix(1 0 -0.180862 0.983508 28.8149 0)" fill="url(#paint1_linear_544_2195)"/>
+<text id="Perguntas frequentes" fill="#FBFFF5" xml:space="preserve" style="white-space: pre" font-family="M PLUS 1" font-size="18" font-weight="500" letter-spacing="0em"><tspan x="43" y="36.348">Perguntas </tspan><tspan x="43" y="61.348">frequentes</tspan></text>
+<path id="Vector" d="M171.172 39.778L165.808 34.414L167.222 33L175 40.778L167.222 48.556L165.808 47.142L171.172 41.778H159V39.778H171.172Z" fill="#FBFFF5"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_544_2195" x1="158.004" y1="-4.05981" x2="109.425" y2="126.545" gradientUnits="userSpaceOnUse">
+<stop stop-color="#BBE768"/>
+<stop offset="1" stop-color="#496022"/>
+</linearGradient>
+<linearGradient id="paint1_linear_544_2195" x1="154.69" y1="-4.05981" x2="105.331" y2="125.862" gradientUnits="userSpaceOnUse">
+<stop stop-color="#BBE768"/>
+<stop offset="1" stop-color="#496022"/>
+</linearGradient>
+</defs>
+</svg>
